@@ -12,7 +12,7 @@ import { frequencyHistogram } from '../functions/frequencyHistogram';
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 500,
+    maxWidth: 1000,
     margin: 20,
   },
   content: {

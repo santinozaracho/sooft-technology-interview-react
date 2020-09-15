@@ -13,7 +13,7 @@ function App() {
         direction='row'
         alignContent='center'
         alignItems='center'
-        justify='flex-start'
+        justify='center'
       >
         <ExerciseOne />
         <ExerciseTwo />

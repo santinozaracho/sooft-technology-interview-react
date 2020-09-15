@@ -13,7 +13,7 @@ import { exGrapher } from '../functions/exGrapher';
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 500,
+    maxWidth: 1000,
     margin: 20,
   },
   content: {
