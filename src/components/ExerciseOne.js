@@ -13,9 +13,10 @@ import { frequencyHistogram } from '../functions/frequencyHistogram';
 const useStyles = makeStyles({
   root: {
     maxWidth: 500,
+    margin: 20,
   },
   content: {
-    height: 140,
+    height: '100%',
     textAlign: 'left',
   },
 });

@@ -2,13 +2,22 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import { Container } from '@material-ui/core';
+import { Container, Grid } from '@material-ui/core';
 import ExerciseOne from './components/ExerciseOne';
+import ExerciseTwo from './components/ExerciseTwo';
 
 function App() {
   return (
     <Container className='App'>
-      <ExerciseOne />
+      <Grid
+        direction='row'
+        alignContent='center'
+        alignItems='center'
+        justify='flex-start'
+      >
+        <ExerciseOne />
+        <ExerciseTwo />
+      </Grid>
     </Container>
   );
 }
